@@ -29,12 +29,5 @@ h2 {
   all: unset;
   cursor: pointer;
   color: #00aaff;
-  align-self: flex-end;
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  transition: background-color 250ms;
-}
-
-.card button:hover {
-  background-color: #eee;
+  align-self: flex-end; /* align to right */
 }
