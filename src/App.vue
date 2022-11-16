@@ -23,7 +23,7 @@ function addNote() {
   </form>
 
   <main>
-    <Note v-for="note in notes" :contents="note" />
+    <Note v-for="note in notes" v-bind:contents="note" />
   </main>
 </template>
 
